@@ -1,0 +1,29 @@
+{
+  "name": "opencode-dsh-bridge",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Local OpenAI-compatible bridge that exposes OpenCode Zen free models and OpenCode Go subscription models to DeepSeek Harness",
+  "license": "MIT",
+  "bin": {
+    "opencode-dsh-bridge": "bin.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node bin.mjs start",
+    "setup": "node bin.mjs setup",
+    "stats": "node bin.mjs stats",
+    "quota": "node bin.mjs quota",
+    "doctor": "node bin.mjs doctor"
+  },
+  "keywords": [
+    "opencode",
+    "deepseek-harness",
+    "dsh",
+    "openai-compatible",
+    "llm",
+    "proxy",
+    "local"
+  ]
+}
